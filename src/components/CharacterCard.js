@@ -7,6 +7,7 @@ const CardContainer = styled.div`
   padding: 1% 1%;
   margin: 2% 0; 
   border-radius: 5px; 
+  align-items: center;
 `
 
 const CardItem = styled.p`

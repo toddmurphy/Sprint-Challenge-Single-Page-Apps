@@ -22,7 +22,6 @@ const DataTitles = styled.div`
 `
 
 const DataLabel = styled.p`
-  border: 1px solid lightgray;
   border-radius: 5px;
   margin: 0 5%;
 `
