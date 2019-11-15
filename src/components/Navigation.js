@@ -7,13 +7,17 @@ const NavigationContainer = styled.div`
     justify-content: space-evenly;
     text-decoration: none;
 `
+const LinkStyle = styled(Link)`
+    text-decoration: none;
+    color: salmon;
+`
 
 
 const Navigation = () => {
     return (
         <NavigationContainer>
-            <Link style={{ textDecoration: 'none', color: 'salmon' }} to='/Welcome' >Welcome Page</Link>
-            <Link style={{ textDecoration: 'none', color: 'salmon' }} to='/Characters' >Character Page</Link>
+            <LinkStyle to='/Welcome' >Welcome Page</LinkStyle>
+            <LinkStyle to='/Characters' >Character Page</LinkStyle>
         </NavigationContainer >
     );
 };
