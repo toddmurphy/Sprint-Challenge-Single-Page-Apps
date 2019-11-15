@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
-import CharacterCard from './LocationCard'
+import CharacterCard from './CharacterCard'
 
 export default function CharacterList() {
   // TODO: Add useState to track data from useEffect
@@ -22,11 +22,12 @@ export default function CharacterList() {
 
   return (
     <section className="character-list">
-      <div>
-        {characterData.map((characters, index) => {
-          return <CharacterCard key={index} characters={characters} />;
-        })}
-      </div>
+      <span>
+        {characterData.map(character => (
+          // console.log(character)
+          < CharacterCard key={character.id} character={character} />
+        ))}
+      </span>
     </section>
   );
 }
