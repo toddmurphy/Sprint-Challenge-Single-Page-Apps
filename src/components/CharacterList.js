@@ -16,7 +16,6 @@ const SearchInput = styled.input`
 `
 
 const DataTitles = styled.div`
-  border: 2px solid green;
   display: flex;
   margin-top: 3%;
   font-size: 1.6rem;

@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const NavigationContainer = styled.div`
-    border: 2px solid red;
     display: flex;
+    justify-content: space-evenly;
     text-decoration: none;
 `
 
@@ -12,9 +12,9 @@ const NavigationContainer = styled.div`
 const Navigation = () => {
     return (
         <NavigationContainer>
-            <Link to='/Welcome' >Welcome Page</Link>
-            <Link to='/Characters' >Character Page</Link>
-        </NavigationContainer>
+            <Link style={{ textDecoration: 'none', color: 'salmon' }} to='/Welcome' >Welcome Page</Link>
+            <Link style={{ textDecoration: 'none', color: 'salmon' }} to='/Characters' >Character Page</Link>
+        </NavigationContainer >
     );
 };
 

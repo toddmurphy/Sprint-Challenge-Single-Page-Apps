@@ -11,6 +11,7 @@ const CardContainer = styled.div`
 
 const CardItem = styled.p`
   margin: 0 5%;
+  width: 100%;
 `
 
 
