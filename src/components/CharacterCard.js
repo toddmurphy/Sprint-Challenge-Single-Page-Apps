@@ -2,15 +2,14 @@ import React from "react";
 import styled from 'styled-components';
 
 const CardContainer = styled.div`
-  border: 2px solid red;
+  border: 2px solid lightgray;
   display: flex;
   padding: 1% 1%;
-  margin: 2% 0;  
+  margin: 2% 0; 
+  border-radius: 5px; 
 `
 
 const CardItem = styled.p`
-  border: 1px solid lightgray;
-  border-radius: 5px;
   margin: 0 5%;
 `
 
