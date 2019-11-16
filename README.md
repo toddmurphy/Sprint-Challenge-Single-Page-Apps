@@ -28,6 +28,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 - [ ]  Explain benefit(s) using `client-side routing`?
 
 > Answer:
+The benefits of using client side routing versus server side routing or for that matter anything server side for the user has huge benefits doing this on the client side. One the main features and benefits is the ability to load all data at once, display data to the user in components, with almost real time loading. There is no need to go back to server for a fresh reload of a page each request and the user can click on links or routes to view specific data for that component. We build our routes and then link them to where we want the user to go. Performance is big benefit (even though it takes longer to load the initial page) but when the pages loads, we can route the user very quickly. Client side routing is awesome.
 
 ## Project Set Up
 
@@ -129,3 +130,6 @@ Complete search component to your list views.
 > Note: AFTER Sprint Challenge: Solutions to many stretch goals (and live demo URLs) are available from TLs (or GitHub admins.)
 
 There are many ways to implement each of these requirements!
+
+# First commit for React Router sprint 
+
